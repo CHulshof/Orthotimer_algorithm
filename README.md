@@ -35,11 +35,17 @@ OUTPUT
 M -> matrix including:
 
 M.(csvName).startdate     -> start date sensor (datetime)
+
 M.(csvName).enddate       -> end date sensor (datetime)
+
 M.(csvName).sampletime    -> sample time sensor (double)
+
 M.(csvName).sensor        -> matrix with footwear on (=1) and footwear off (n=0) for each measurement (dependent on sample time) (double)
+
 M.(csvName).dayTbl        -> day table with number of samples footwear on (n=1) per day (time footwear on are dependent on sample time) (timetable)
+
 M.(csvName).dayTblHrs     -> day table with hours of wearing time per day (adjusted for sampletime) (timetable)
+
 M.(csvName).SensorOnMat   -> table with footwear on (=1) and footwear off (n=0) for each measurement (dependent on sample time) (timetable)
 
 
