@@ -71,7 +71,7 @@ ADDITIONAL INFORMATION
 
 We developed a script to combine wearing time of multiple sensors of one patient/participant. This script can be useful when a patient/participant has for example multiple pairs of footwear.
 
-Please feel free to contact us for more information: s.exterkate@podotherapeut.nl or c.m.hulshof@amsterdamumc.nl.
+Please feel free to contact us for more information: innovatie@podotherapeut.nl, c.m.hulshof@amsterdamumc.nl. or j.j.vannetten@amsterdamumc.nl
 
 
 
