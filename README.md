@@ -75,7 +75,7 @@ Please feel free to contact us for more information: s.exterkate@podotherapeut.n
 
 
 
-REFERENCE
+REFERENCES
 
 Link to Orthotimer site:
 
