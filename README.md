@@ -1,4 +1,4 @@
-**Orthotimer_algorithm.m**
+README - Orthotimer_algorithm.m
 
 The Orthotimer algorithm can detect footwear use and non-use based on temperature data assessed with an Orhotimer sensor.
 
@@ -17,6 +17,8 @@ Folder "Functions" contains functions used in Orthotimer_algorithm.m.
 Main function -> [M] = Orthotimer_algorithm(file)
 
 IMPORTANT -> Set time zone in line 23 (setTimeZone = 'Europe/Amsterdam'; %Set prefered time zone)
+
+Multiple_sensors_analyses.m is an example script how to run Orthotimer_algorithm.m mulitiple times with different input files.
 
 
 INPUT
@@ -56,6 +58,13 @@ In order of script:
 % Ends here
 
 - firstMax_lastMin			-> First index should be a MaxIdx and last index should be a MinIdx
+
+
+ADDITIONAL INFORMATION
+
+We developed a script to combine wearing time of multiple sensors of one patient/participant. This script can be useful when a patient/participant has for example multiple pairs of footwear.
+
+Please feel free to contact us for more information: s.exterkate@podotherapeut.nl or c.m.hulshof@amsterdamumc.nl.
 
 
 REFERENCE
