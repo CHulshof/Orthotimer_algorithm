@@ -1,8 +1,8 @@
-**README - Orthotimer_algorithm.m**
+**README - Orthotimer_algorithm.m - Groningen algorithm, version 2**
 
 **The Orthotimer algorithm can detect footwear use and non-use based on temperature data assessed with an Orhotimer sensor.**
 
-This algorithm used the base of the validated Groningen algorithm (Lutjeboer and colleagues, 2018) to detect footwear use and non-use based on temperature data measured with an Orthotimer® sensor. In long-term measures it was found that donning and doffing peaks present in the temperature signals were missed by the original algorithm. The algorithm was then improved to overcome these detection errors. A new filtering technique using Fourier transformation and cut-off values to detect positive and negative peaks in the temperature slope curve are used. The improved algorithm was validated on 20 randomly selected participants from two different studies (n=40) using orthopaedic shoes with Orthotimer® sensors. Per participant, 10 days were selected, with proportional representation of all seasons, and accuracy of peak detection was assessed visually by two researchers independently. Both researchers confirmed correct peak detection using this improved algorithm. This improved algorithm is in this Github: Orthotimer_algorithm.m . We are interested in your experiences or any improvements.
+This algorithm used the base of the validated Groningen algorithm (Lutjeboer and colleagues, 2018) to detect footwear use and non-use based on temperature data measured with an Orthotimer® sensor. In long-term measures it was found that donning and doffing peaks present in the temperature signals were missed by the original algorithm. The algorithm was then improved to overcome these detection errors. A new filtering technique using Fourier transformation and cut-off values to detect positive and negative peaks in the temperature slope curve are used. The improved algorith - Groningen algorithm, version 2 - was validated on 20 randomly selected participants from two different studies (n=40) using orthopaedic shoes with Orthotimer® sensors. Per participant, 10 days were selected, with proportional representation of all seasons, and accuracy of peak detection was assessed visually by two researchers independently. Both researchers confirmed correct peak detection using this improved algorithm. Groningen algorithm, version 2, the improved algorithm, can be found in this Github: Orthotimer_algorithm.m . We are interested in your experiences or any improvements.
 
 
 INSTRUCTIONS
@@ -88,7 +88,7 @@ Link to Orthotimer site:
 
 - https://orthotimer.com/en/
 
-Original Groningen Algorithm:
+Original Groningen Algorithm paper:
 
 - Lutjeboer T, Van Netten JJ, Postema K, Hijmans JM. Validity and feasibility of a temperature sensor for measuring use and non-use of orthopaedic footwear. J Rehabil Med. 2018;50(10):920–6. 
 
