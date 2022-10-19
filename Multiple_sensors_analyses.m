@@ -1,8 +1,10 @@
 %% Orthotimer sensor analyses for multiple sensors
 
-%% Change folder directory to directory with .csv files of Orthotimer sensor
+% Add path with functions used in Orthotimer_algorithm
+addpath('C:\FOLDER_WITH_FUNCTIONS');
+
+% Change folder directory to directory with .csv files of Orthotimer sensor
 folder_dir = 'C:\FOLDER_WITH_CSV_FILES';
-addpath('C:\FOLDER_WITH_FUNCTIONS')
 
 % Add path of sensor folder
 addpath(folder_dir);
