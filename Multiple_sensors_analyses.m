@@ -2,6 +2,7 @@
 
 %% Change folder directory to directory with .csv files of Orthotimer sensor
 folder_dir = 'C:\FOLDER_WITH_CSV_FILES';
+addpath('C:\FOLDER_WITH_FUNCTIONS')
 
 % Add path of sensor folder
 addpath(folder_dir);
@@ -10,9 +11,11 @@ addpath(folder_dir);
 list_files_analysis = dir([folder_dir,'/*.csv']);
 
 n = length(list_files_analysis);
-for i = 1:2 %: n
+for i = 1 : n
     fprintf ('\nProcessing file %d of %d (%s)\n', i, n, list_files_analysis(i).name);
     Mtemp = Orthotimer_algorithm(list_files_analysis(i).name);
     Mname = fieldnames(Mtemp);
     M.(char(Mname)) = Mtemp.(char(Mname));
 end
+
+save('Struct_data','M');
